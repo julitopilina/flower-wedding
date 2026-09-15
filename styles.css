@@ -835,11 +835,6 @@ body {
         padding-bottom: 2rem;
     }
 
-    .hero .subtitle {
-        font-size: 2.1rem;
-        margin-bottom: -32px;
-    }
-
     .hero-image {
         margin-bottom: 0.5rem;
     }
@@ -854,29 +849,28 @@ body {
     }
 
     .names {
-        font-size: 3rem;
-        margin-top: -85px;
+        margin-top: -105px;
     }
 
     .names .name-m {
-        transform: translateX(-40px);
+        transform: translateX(-50px);
     }
 
     .names .and {
-        transform: translate(15px, -8px);
+        transform: translate(20px, -10px);
     }
 
     .names .name-v {
-        transform: translate(35px, -16px);
+        transform: translate(45px, -18px);
     }
 
     .bottom-left-hero {
-        margin-top: -145px;
+        margin-top: -170px;
         margin-left: -15px;
     }
 
     .bottom-left-hero img {
-        max-width: 190px;
+        max-width: 200px;
     }
 
     .section-title {
@@ -893,38 +887,32 @@ body {
 }
 
 @media (max-width: 380px) {
-    .hero .subtitle {
-        font-size: 1.85rem;
-        margin-bottom: -28px;
-    }
-
     .hero-image::after {
         height: 32%;
     }
 
     .names {
-        font-size: 2.6rem;
-        margin-top: -72px;
+        margin-top: -95px;
     }
 
     .names .name-m {
-        transform: translateX(-30px);
+        transform: translateX(-40px);
     }
 
     .names .and {
-        transform: translate(10px, -6px);
+        transform: translate(15px, -8px);
     }
 
     .names .name-v {
-        transform: translate(25px, -12px);
+        transform: translate(35px, -14px);
     }
 
     .bottom-left-hero {
-        margin-top: -125px;
+        margin-top: -150px;
         margin-left: -10px;
     }
 
     .bottom-left-hero img {
-        max-width: 160px;
+        max-width: 175px;
     }
 }
