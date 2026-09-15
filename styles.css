@@ -49,14 +49,14 @@ body {
 /* Hero Section */
 .hero {
     position: relative;
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 .hero .subtitle {
     font-size: 2.5rem;
     color: var(--primary-color);
-    margin-bottom: -35px;
+    margin-bottom: -40px;
     position: relative;
     z-index: 2;
     display: inline-block;
@@ -74,10 +74,8 @@ body {
 .hero-image {
     position: relative;
     width: 100%;
-    height: 440px;
-    max-height: 54vh;
-    overflow: hidden;
-    margin-bottom: 0.5rem;
+    height: auto;
+    margin-bottom: 0;
     line-height: 0;
     z-index: 1;
 }
@@ -99,19 +97,12 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 38%;
+    height: 30%;
     background: linear-gradient(to top, var(--bg-color) 0%, rgba(252, 251, 250, 0.95) 25%, rgba(252, 251, 250, 0.45) 60%, transparent 100%);
     z-index: 1;
 }
 
-.hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 15%;
-    display: block;
-}
-
+.hero-image img,
 .photo-section img {
     width: 100%;
     display: block;
@@ -121,7 +112,7 @@ body {
     font-size: 3.8rem;
     line-height: 0.9;
     color: #2c3e30;
-    margin-top: -115px;
+    margin-top: -65px;
     position: relative;
     z-index: 2;
     text-align: center;
@@ -146,7 +137,7 @@ body {
     position: relative;
     z-index: 3;
     opacity: 0.9;
-    margin-top: -180px;
+    margin-top: -140px;
     text-align: left;
     margin-left: -20px;
     pointer-events: none;
@@ -840,17 +831,16 @@ body {
 /* Responsive Media Queries */
 @media (max-width: 480px) {
     .hero {
-        padding-top: 0.2rem;
-        padding-bottom: 1.5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 2rem;
     }
 
     .hero .subtitle {
-        margin-bottom: -28px;
+        margin-bottom: -32px;
     }
 
     .hero-image {
-        height: 360px;
-        max-height: 48vh;
+        height: auto;
         margin-bottom: 0;
     }
 
@@ -859,12 +849,12 @@ body {
     }
 
     .hero-image::after {
-        height: 38%;
+        height: 30%;
         background: linear-gradient(to top, var(--bg-color) 0%, rgba(252, 251, 250, 0.95) 25%, rgba(252, 251, 250, 0.4) 60%, transparent 100%);
     }
 
     .names {
-        margin-top: -95px;
+        margin-top: -55px;
     }
 
     .names .name-m {
@@ -880,12 +870,12 @@ body {
     }
 
     .bottom-left-hero {
-        margin-top: -160px;
+        margin-top: -125px;
         margin-left: -15px;
     }
 
     .bottom-left-hero img {
-        max-width: 180px;
+        max-width: 170px;
     }
 
     .section-title {
@@ -902,17 +892,12 @@ body {
 }
 
 @media (max-width: 380px) {
-    .hero-image {
-        height: 320px;
-        max-height: 46vh;
-    }
-
     .hero-image::after {
-        height: 35%;
+        height: 28%;
     }
 
     .names {
-        margin-top: -85px;
+        margin-top: -45px;
     }
 
     .names .name-m {
@@ -928,11 +913,11 @@ body {
     }
 
     .bottom-left-hero {
-        margin-top: -140px;
+        margin-top: -110px;
         margin-left: -10px;
     }
 
     .bottom-left-hero img {
-        max-width: 150px;
+        max-width: 145px;
     }
 }
